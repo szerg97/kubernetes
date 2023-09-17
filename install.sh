@@ -15,7 +15,7 @@ function individualRun(){
 }
 
 function helmInstall(){
-    helm upgrade --install mychart-release mychart/ -f mychart/values.yaml -n ${NAMESPACE}
+    helm upgrade --install mychart-release my-chart/ -f my-chart/values.yaml -n ${NAMESPACE}
 }
 
 createNamespace
